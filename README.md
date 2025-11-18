@@ -28,7 +28,7 @@ Insert CSV to Database:  <br/>
 <br />
 <br />
 Transform Data Using SQL: <br/>
-<img src="Real_estate_sql.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/lndc98Z" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Create Views:  <br/>
