@@ -3,7 +3,17 @@
 
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+
+This project utilized PostgreSQL, Power BI, and raw real estate data to answer my key question: When is the best time to sell a house in Connecticut to maximize profit—both by time of year and specific days of the month?
+
+I began by designing and building a PostgreSQL database to store and manage the dataset. Once the data was imported, I performed data cleaning by removing unnecessary columns, correcting inconsistencies, and preparing the dataset for analysis.
+
+Next, I wrote a SQL query using a Common Table Expression (CTE) to aggregate and extract all relevant information needed for my analysis, and I created a view to streamline the connection to Power BI.
+
+In Power BI, I connected to the view and developed an interactive dashboard with visualizations that allowed me to identify patterns and trends. This helped me determine the optimal periods for selling a home in Connecticut for maximum profitability.
+
+Answer: Best time to sell your house for the most profit is in the summer months (months 6-8) usually in the middle of the month (days 15-18).
+
 <br />
 
 
@@ -19,28 +29,28 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Create Database: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Created Database: <br/>
+<img src="https://imgur.com/TcwGJO4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Insert CSV to Database:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Transformed Data Using SQL: <br/>
+<img src="https://imgur.com/40ZFi99.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Transform Data Using SQL: <br/>
-<img src="https://imgur.com/a/lndc98Z" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Cleansed Raw Data:  <br/>
+<img src="https://imgur.com/k4X8J1P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create Views:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Created Views:  <br/>
+<img src="https://imgur.com/sMlFJgN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Connect Database to Powerquery:  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Connected Database to Power BI:  <br/>
+<img src="https://imgur.com/DJ2xBsF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Complete Visuals:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Completed Visuals:  <br/>
+<img src="https://imgur.com/Q0rawCa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
