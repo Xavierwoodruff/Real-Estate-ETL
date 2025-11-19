@@ -1,4 +1,4 @@
-<h1>Real Estate Analytics: Connecticut</h1>
+<h1>Connecticut Real Estate KPI Dashboard (SQL + Power BI)</h1>
 
 
 
